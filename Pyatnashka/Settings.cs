@@ -31,7 +31,6 @@ namespace Pyatnashka
             if (musicBox.Checked == true)
             {
                 SoundPlayer simpleSound = new SoundPlayer(@"C:\\Pyatnashka\\Pyatnashka\\Resources\\Nightmare.wav");
-                
                 simpleSound.PlayLooping();
             }
             else if (musicBox.Checked == false)
