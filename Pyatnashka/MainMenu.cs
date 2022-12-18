@@ -47,5 +47,22 @@ namespace Pyatnashka
         {
             Application.Exit();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rulesButton_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Rules R = new Rules();
+            R.Show();
+        }
     }
 }

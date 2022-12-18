@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Pyatnashka.Properties;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -29,15 +30,17 @@ namespace Pyatnashka
         {
             if (musicBox.Checked == true)
             {
-                SoundPlayer simpleSound = new SoundPlayer(@"C:\Pyatnashka\Pyatnashka\Resources\Nightmare.wav");
+                SoundPlayer simpleSound = new SoundPlayer(@"C:\\Pyatnashka\\Pyatnashka\\Resources\\Nightmare.wav");
+                
                 simpleSound.PlayLooping();
             }
             else if (musicBox.Checked == false)
             {
-                SoundPlayer simpleSound = new SoundPlayer(@"C:\Pyatnashka\Pyatnashka\Resources\Nightmare.wav");
+                SoundPlayer simpleSound = new SoundPlayer(@"C:\\Pyatnashka\\Pyatnashka\\Resources\\Nightmare.wav");
                 simpleSound.Stop();
             }
         }
 
+        
     }
 }
